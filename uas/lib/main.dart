@@ -10,10 +10,10 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter News',
+      title: 'UAS Pengembangan AppMobile',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
-        visualDensity: VisualDensity.adaptivePlatformDensity,
+        primarySwatch: Colors.blue
       ),
       home: MyHomePage(title: 'Nova Cantika Fitri'),
     );

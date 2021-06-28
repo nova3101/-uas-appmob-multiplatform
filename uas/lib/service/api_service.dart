@@ -11,7 +11,7 @@ class ApiService {
     if (response.statusCode == 200) {
       Map<String, dynamic> json = jsonDecode(response.body);
 
-      List<dynamic> body = json['news'];
+      List<dynamic> body = json['berita'];
 
       List<News> news = body.map((item) => News.fromJson(item)).toList();
 

@@ -4,9 +4,11 @@ import 'package:uas/models/news.dart';
 
 class PrimaryCard extends StatelessWidget {
   final News news;
+
   PrimaryCard({this.news});
 
   get kTitleCard => null;
+
 
   @override
   Widget build(BuildContext context) {

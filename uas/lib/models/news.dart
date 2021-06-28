@@ -18,14 +18,9 @@ class News {
     return News(
       author: json['author'] ?? "",
       image: json['urlToImage'] ?? "",
+      seen: (Random().nextInt(100) + 1).toString() + 'k',
       subtitle: json['description'] ??"",
       title: json['title'] ?? ""
       );
   }
-
-  String get name => null;
-
-  String get time => null;
-
-  get estimate => null;
 }
